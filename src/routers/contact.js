@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getaAllContacts, getContactById } from '../services/contacts';
+
 import { ctrlWrapper } from '../utils/ctrlWrapper';
 import {
   createContactController,
