@@ -13,7 +13,7 @@ export const getContactsController = async (req, res, next) => {
     res.json({
       status: 200,
       message: 'Succesfully found contacts!',
-      data: students,
+      data: contacts,
     });
   } catch (err) {
     next(err);
